@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+    "lxml>=6.0.2",
+    "polars>=1.35.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.7",
+]
